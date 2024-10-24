@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Alexandre Barrio - Desenvolvedor Web" />
+    <meta
+      property="og:description"
+      content="Conheça meu trabalho como desenvolvedor web, incluindo projetos, habilidades e experiência."
+    />
+    <meta property="og:image" content="URL da imagem para visualização" />
+    <meta
+      property="og:url"
+      content="https://vercel.live/link/portifolioalexandrebarrio-dyi61xhle.vercel.app?via=deployment-screenshot&p=1"
+    />
+    <meta property="og-locale" content="PT-BR" />
+    <!-- Lib Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"
+      defer
+    ></script>
+    <script src="./src/js/index.js" defer></script>
+    <title>Meu portifólio</title>
+  </head>
+
+  <body>
+    <ul class="wrapper">
+      <li class="icon github">
+        <span>
+          <a
+            href="https://www.linkedin.com/in/alexandre-barrio-95b029302/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i id="github" class="fa-brands fa-github"></i>
+          </a>
+        </span>
+      </li>
+
+      <li class="icon email" id="copyEmail">
+        <span>
+          <i class="fa-regular fa-envelope"></i>
+        </span>
+      </li>
+      <input
+        type="text"
+        id="emailInput"
+        value="dev.alexandrebarrio@gmail.com"
+        readonly
+        style="display: none"
+      />
+
+      <li class="icon linkedin">
+        <span>
+          <a
+            class="anchor-linkedin"
+            href="https://www.linkedin.com/in/alexandre-barrio-95b029302/"
+            rel="noopener no-referrer"
+            target="_blank"
+          >
+            <i id="linkedin" class="fa-brands fa-linkedin"></i>
+          </a>
+        </span>
+      </li>
+    </ul>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modalMessage">E-mail copiado!</p>
+      </div>
+    </div>
+
+    <header id="top" class="container-header">
+      <img
+        class="profile-image"
+        src="public/image/profilePhoto.png"
+        alt="Minha foto de perfil"
+        data-aos="flip-up"
+        data-aos-duration="1300"
+      />
+      <h1 class="name-header" data-aos="fade-down" data-aos-duration="1300">
+        Olá, eu me chamo <br />Alexandre Barrio
+      </h1>
+      <p
+        class="description-header"
+        data-aos="fade-down"
+        data-aos-duration="1300"
+      >
+        E aqui você irá conhecer sobre o meu trabalho
+      </p>
+      <a
+        class="anchor"
+        href="#work-section"
+        data-aos="fade-left"
+        data-aos-duration="1300"
+        >Quero saber mais</a
+      >
+    </header>
+    <main>
+      <section id="work-section" class="work-section">
+        <h1
+          class="work-section-title"
+          data-aos="fade-up"
+          data-aos-duration="1300"
+        >
+          Confira alguns dos meus trabalhos
+        </h1>
+        <div class="div-work">
+          <div
+            class="div-projects"
+            data-aos="fade-right"
+            data-aos-duration="1300"
+          >
+            <section id="screens">
+              <div id="desktop"></div>
+              <div id="mobile"></div>
+            </section>
+            <div id="repositoriesProjects">
+              <p>
+                <span>🔧 Tecnologias utilizadas:</span> React, JavaScript e SASS
+                <br />
+                <span>📋 Funcionalidades:</span> Adicionar, editar, excluir e
+                visualizar itens.<br />
+                Armazenamento dos itens utilizando localStorage. O objetivo
+                principal foi colocar em prática os conhecimentos adquiridos em
+                React, explorando conceitos como props, hooks, estados, SPAs e
+                componentes funcionais.
+              </p>
+              <a
+                href="https://github.com/Ale-Barrio-dev/Meu-portifolio.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                >🔗 Link GitHub</a
+              >
+              <a
+                href="https://vercel.live/link/gerenciador-de-estoque-cyan.vercel.app?via=deployment-domains-list&p=1&page=/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                🔗 Link do projeto
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="div-projects"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+          >
+            <section id="screens">
+              <div id="desktop02"></div>
+              <div id="mobile02"></div>
+            </section>
+            <div id="repositoriesProjects">
+              <p>🔧 Tecnologias utilizadas:</p>
+              <p>🔗 Link GitHub:</p>
+              <p>🔗 Link do projeto:</p>
+            </div>
+          </div>
+
+          <div
+            class="div-projects"
+            data-aos="fade-right"
+            data-aos-duration="1300"
+          >
+            <section id="screens">
+              <div id="desktop02"></div>
+              <div id="mobile02"></div>
+            </section>
+            <div id="repositoriesProjects">
+              <p>🔧 Tecnologias utilizadas:</p>
+              <p>🔗 Link GitHub:</p>
+              <p>🔗 Link do projeto:</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="container-about-me"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <h1 class="title-about-me">Um pouco sobre mim</h1>
+        <p class="description-about-me">
+          👋 Olá! Sou o Alexandre, um desenvolvedor front-end com paixão por
+          tecnologia e um desejo constante de aprender e evoluir. Estou focado
+          em aprimorar minhas habilidades em TypeScript, SASS, Node e frameworks
+          modernos como React, buscando sempre criar interfaces funcionais e
+          intuitivas. Além disso, estou constantemente desenvolvendo minha
+          lógica de programação para garantir soluções eficientes em qualquer
+          projeto. Atualmente, procuro uma oportunidade para colaborar com uma
+          equipe inovadora, onde eu possa aplicar meus conhecimentos, aprender e
+          crescer junto com o time. Agradeço pelo seu tempo e estou animado para
+          contribuir com novas ideias e energia para a sua equipe! 🚀
+        </p>
+        <div class="div-about-me">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <a id="arrowUp" href="#top"><i class="fa-regular fa-circle-up"></i></a>
+      </section>
+    </main>
+    <footer>
+      <small>&copy; 2024, Desenvolvido por Alexandre Barrio </small>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </footer>
+  </body>
+</html>

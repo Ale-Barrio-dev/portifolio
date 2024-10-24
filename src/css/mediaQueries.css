@@ -1,0 +1,128 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .div-projects {
+    max-width: 300px;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #repositoriesProjects {
+    max-width: 285px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 716px) {
+  .div-projects {
+    max-width: 90vw;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1215px) {
+  .wrapper {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .container-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+      "profile-image name-header"
+      "profile-image description-header"
+      "profile-image anchor";
+    place-items: center;
+    min-height: 100vh;
+  }
+
+  .profile-image {
+    width: 18rem;
+    height: 18rem;
+    margin: 4rem 2rem auto 5rem;
+    grid-area: profile-image;
+  }
+
+  .name-header {
+    font-size: 3.2rem;
+    margin: 6rem 8rem auto auto;
+    grid-area: name-header;
+  }
+
+  .description-header {
+    margin: 0.5rem 8rem auto auto;
+    grid-area: description-header;
+  }
+
+  .anchor {
+    margin: 2rem 14rem 4rem auto;
+    grid-area: anchor;
+  }
+
+  .container-about-me {
+    max-width: 85vw;
+  }
+}
+
+@media screen and (min-width: 1216px) and (max-width: 1919px) {
+  .wrapper {
+    position: fixed;
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .wrapper .icon {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .container-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+      "profile-image name-header"
+      "profile-image description-header"
+      "profile-image anchor";
+    place-items: center;
+    min-height: 100vh;
+  }
+
+  .profile-image {
+    width: 20rem;
+    height: 20rem;
+    margin: 6rem 2rem auto 10rem;
+    grid-area: profile-image;
+  }
+
+  .name-header {
+    font-size: 4rem;
+    margin: 6rem 12rem auto auto;
+    grid-area: name-header;
+  }
+
+  .description-header {
+    font-size: 1.4rem;
+    margin: 0.5rem 16rem auto auto;
+    grid-area: description-header;
+  }
+
+  .anchor {
+    width: 20rem;
+    height: 5rem;
+    margin: 2rem 20rem 4rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    grid-area: anchor;
+  }
+
+  .container-about-me {
+    max-width: 85vw;
+  }
+}
