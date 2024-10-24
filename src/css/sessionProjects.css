@@ -53,26 +53,26 @@
 }
 
 #desktop {
-  background-image: url(/public/image/imageStockDesktop.png);
+  background-image: url(/src/images/imageStockDesktop.png);
   width: 20rem;
   height: 12rem;
 }
 
 #mobile {
-  background-image: url(/public/image/imgStockMobile.png);
+  background-image: url(/src/images/imgStockMobile.png);
   width: 12rem;
   height: 15rem;
 }
 
 #desktop02 {
-  background-image: url(/public/image/logo-em-construçao.png);
+  background-image: url(/src/images/logo-em-construçao.png);
   background-repeat: no-repeat;
   width: 20rem;
   height: 12rem;
 }
 
 #mobile02 {
-  background-image: url(/public/image/logo-em-construçao.png);
+  background-image: url(/src/images/logo-em-construçao.png);
   background-repeat: no-repeat;
   width: 12rem;
   height: 15rem;
