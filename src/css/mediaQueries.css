@@ -3,7 +3,8 @@
     max-width: 300px;
   }
 
-  #mobile {
+  #mobile,
+  #mobile02 {
     display: none;
   }
 

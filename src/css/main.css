@@ -13,6 +13,7 @@
 
 html {
   scroll-behavior: smooth !important;
+  overflow-x: hidden;
 }
 
 body {
@@ -22,4 +23,5 @@ body {
   color: aliceblue;
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
+  overflow-x: hidden;
 }

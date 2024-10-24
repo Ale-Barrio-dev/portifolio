@@ -54,7 +54,8 @@
 
 #desktop {
   background-image: url(/src/images/imageStockDesktop.png);
-  width: 20rem;
+  max-width: 20rem;
+  min-width: 252px;
   height: 12rem;
 }
 
@@ -67,7 +68,8 @@
 #desktop02 {
   background-image: url(/src/images/logo-em-construçao.png);
   background-repeat: no-repeat;
-  width: 20rem;
+  max-width: 20rem;
+  min-width: 252px;
   height: 12rem;
 }
 
